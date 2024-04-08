@@ -5,6 +5,7 @@ Worthy Tutorial: [TechWorld with Nana](https://www.youtube.com/watch?v=t8pPdKYpo
 This project covers various hands-on demo projects in Python for Data Analysis.
 ## Skills Covered
 1. Data Cleaning
+
 A program that cleans a dataset to accommodate analysis with Python Lists and Dictionaries.
 ```
 transactions_clean = []
@@ -22,6 +23,7 @@ sales = []
 thread_sold = []
 ```
 2. Lists and Dictionaries
+
 A program that calculates points scored in the game of Scrabble.
 ```
 player_to_points = {}
@@ -33,6 +35,7 @@ for player in player_to_words.keys():
     player_to_points[player] = player_points
 ```
 3. Countdown
+
 A program that counts down to the due date using the datetime module.
 ```
 deadline_date = datetime.strptime(deadline,'%d.%m.%Y')
@@ -42,12 +45,14 @@ time_till = deadline_date - today_date
 time_till_hrs = int(time_till.total_seconds()/(60*60))
 ```
 4. Working with openpyxl
+
 A program that analyses an inventory worksheet.
 ```
 inventory_file = openpyxl.load_workbook('inventory.xlsx')
 product_list = inventory_file['Sheet 1']
 ```
 5. Classes
+
 A program that utilizes Classes to analyze data in csv format using the csv module.
 The analysis was for sales data according to region, categories, and year.
 ```
