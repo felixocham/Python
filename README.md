@@ -65,7 +65,7 @@ with open("sales.csv") as sales_csv:
                 self.new_list.append(item[self.column])
         return self.new_list
 ```
-### Why I Picked This Dataset
+### Why Analysis in Python
 I liked working with Python because I felt like it was designed with the consideration of data analysis and it has useful libraries for common tasks in that field.
 I also have room to collaborate with mates because Python has many users in data.
 Now, combining that with my curiosity about business performance adds more flavor to it.
