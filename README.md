@@ -2,7 +2,7 @@
 ## Source:
 Worthy Tutorial: [TechWorld with Nana](https://www.youtube.com/watch?v=t8pPdKYpowI)
 ## Introduction
-This project covers various hands-on demo projects in Python for Data Analysis.
+This project covers various hands-on demos in Python for Data Analysis.
 ## Skills Covered
 1. Data Cleaning
 
